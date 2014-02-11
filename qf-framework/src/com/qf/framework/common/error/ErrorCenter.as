@@ -17,6 +17,7 @@ public class ErrorCenter {
 	}
 
 	public function throwError(error:Error):void {
+		var aaa:String;
 		throw error;
 	}
 
