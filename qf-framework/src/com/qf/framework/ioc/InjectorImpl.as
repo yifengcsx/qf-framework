@@ -1,12 +1,12 @@
-package com.qf.framework.core.ioc {
+package com.qf.framework.ioc {
 import com.qf.framework.common.error.ErrorCenter;
 import com.qf.framework.common.reflect.Type;
 import com.qf.framework.common.reflect.util.ClassUtils;
 import com.qf.framework.common.util.checkNotNull;
-import com.qf.framework.core.ioc.binding.Binding;
-import com.qf.framework.core.ioc.binding.Config;
-import com.qf.framework.core.ioc.error.BindRepetitionError;
-import com.qf.framework.core.ioc.injection.Injections;
+import com.qf.framework.ioc.binding.Binding;
+import com.qf.framework.ioc.binding.Config;
+import com.qf.framework.ioc.error.BindRepetitionError;
+import com.qf.framework.ioc.injection.Injections;
 
 import flash.system.ApplicationDomain;
 import flash.utils.Dictionary;

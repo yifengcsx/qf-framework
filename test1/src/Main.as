@@ -1,7 +1,7 @@
 package {
 
-import com.qf.framework.core.QF;
-import com.qf.framework.core.ioc.Injector;
+import com.qf.framework.QF;
+import com.qf.framework.ioc.Injector;
 
 import flash.display.Sprite;
 import flash.events.Event;

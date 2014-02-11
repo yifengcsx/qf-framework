@@ -1,5 +1,7 @@
-package com.qf.framework.core {
+package com.qf.framework {
 import com.qf.framework.core.ioc.*;
+import com.qf.framework.ioc.Injector;
+import com.qf.framework.ioc.InjectorBuilder;
 
 import flash.system.ApplicationDomain;
 

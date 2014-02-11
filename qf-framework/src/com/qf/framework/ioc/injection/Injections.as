@@ -1,4 +1,4 @@
-package com.qf.framework.core.ioc.injection {
+package com.qf.framework.ioc.injection {
 import com.qf.framework.common.ds.Map;
 import com.qf.framework.common.ds.map.HashMap;
 import com.qf.framework.common.reflect.Field;
@@ -9,7 +9,7 @@ import com.qf.framework.common.reflect.MethodParam;
 import com.qf.framework.common.reflect.Type;
 import com.qf.framework.common.util.checkNotNull;
 import com.qf.framework.common.util.isNotNull;
-import com.qf.framework.core.ioc.Injector;
+import com.qf.framework.ioc.Injector;
 
 /**
  * 注入工具类

@@ -1,4 +1,4 @@
-package com.qf.framework.core.ioc.binding {
+package com.qf.framework.ioc.binding {
 import com.qf.framework.common.reflect.Type;
 
 /**

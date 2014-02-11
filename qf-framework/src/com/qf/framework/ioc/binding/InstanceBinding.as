@@ -1,6 +1,6 @@
-package com.qf.framework.core.ioc.binding {
+package com.qf.framework.ioc.binding {
 import com.qf.framework.common.util.checkNotNull;
-import com.qf.framework.core.ioc.Key;
+import com.qf.framework.ioc.Key;
 
 /**
  *

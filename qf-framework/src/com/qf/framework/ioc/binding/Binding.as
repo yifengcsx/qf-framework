@@ -1,5 +1,5 @@
-package com.qf.framework.core.ioc.binding {
-import com.qf.framework.core.ioc.Key;
+package com.qf.framework.ioc.binding {
+import com.qf.framework.ioc.Key;
 
 /**
  * 绑定

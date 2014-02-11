@@ -1,6 +1,6 @@
 package {
-import com.qf.framework.core.ioc.Injector;
-import com.qf.framework.core.ioc.binding.AbstractConfig;
+import com.qf.framework.ioc.Injector;
+import com.qf.framework.ioc.binding.AbstractConfig;
 
 /**
  *

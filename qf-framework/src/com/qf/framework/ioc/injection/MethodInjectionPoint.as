@@ -1,33 +1,30 @@
-package com.qf.framework.core.ioc.injection {
+package com.qf.framework.ioc.injection {
 import com.qf.framework.common.ds.Map;
 import com.qf.framework.common.error.ErrorCenter;
+import com.qf.framework.common.reflect.Method;
 import com.qf.framework.common.reflect.MethodParam;
-import com.qf.framework.common.reflect.Type;
-import com.qf.framework.core.ioc.Injector;
-import com.qf.framework.core.ioc.error.BindingUndefinedError;
+import com.qf.framework.ioc.Injector;
+import com.qf.framework.ioc.error.BindingUndefinedError;
 
 /**
- * 构造注入点
+ * 方法注入点
  *
  * @author 毅峰
  */
-public class ConstructorInjectionPoint implements InjectionPoint {
+public class MethodInjectionPoint implements InjectionPoint {
 
-	public function ConstructorInjectionPoint(type:Type, paramNameMap:Map = null) {
-		this.type = type;
+	public function MethodInjectionPoint(method:Method, paramNameMap:Map = null) {
+		this.method = method;
 		this.paramNameMap = paramNameMap;
 	}
 
-	private var type:Type;
+	private var method:Method;
 	private var paramNameMap:Map;
 
 	public function inject(target:Object, injector:Injector):Object {
-		if (target) {
-			return target;
-		}
-		var params:Vector.<MethodParam> = type.getConstructorParams();
+		var params:Vector.<MethodParam> = method.getParams();
 		var paramValues:Array = null;
-		if (params.length != 0) {
+		if (params.length > 0) {
 			paramValues = [];
 			for each (var methodParam:MethodParam in params) {
 				var value:Object = injector.getInstanceByType(
@@ -48,7 +45,9 @@ public class ConstructorInjectionPoint implements InjectionPoint {
 				}
 			}
 		}
-		return type.newInstance(paramValues);
+		method.invoke(target, paramValues);
+		return target;
 	}
+
 }
 }

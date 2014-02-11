@@ -1,4 +1,4 @@
-package com.qf.framework.core.ioc.injection {
+package com.qf.framework.ioc.injection {
 import com.qf.framework.common.reflect.Type;
 
 /**

@@ -1,4 +1,4 @@
-package com.qf.framework.core.ioc.binding {
+package com.qf.framework.ioc.binding {
 
 /**
  * 绑定创建器

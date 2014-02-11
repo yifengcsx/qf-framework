@@ -1,4 +1,4 @@
-package com.qf.framework.core.ioc.error {
+package com.qf.framework.ioc.error {
 
 /**
  * 绑定未定义错误

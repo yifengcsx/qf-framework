@@ -1,9 +1,9 @@
-package com.qf.framework.core.ioc.binding {
+package com.qf.framework.ioc.binding {
 import com.qf.framework.common.reflect.Type;
 import com.qf.framework.common.util.checkNotNull;
 import com.qf.framework.common.util.isNull;
-import com.qf.framework.core.ioc.Injector;
-import com.qf.framework.core.ioc.Key;
+import com.qf.framework.ioc.Injector;
+import com.qf.framework.ioc.Key;
 
 /**
  *
@@ -113,13 +113,13 @@ internal class BinderImpl implements Binder, NamedBindingBuilder {
 import com.qf.framework.common.reflect.Type;
 import com.qf.framework.common.util.checkNotNull;
 import com.qf.framework.common.util.isNotNull;
-import com.qf.framework.core.ioc.Injector;
-import com.qf.framework.core.ioc.Key;
-import com.qf.framework.core.ioc.binding.Binding;
-import com.qf.framework.core.ioc.binding.InstanceBinding;
-import com.qf.framework.core.ioc.binding.Provider;
-import com.qf.framework.core.ioc.binding.ProviderBinding;
-import com.qf.framework.core.ioc.binding.TypeProvider;
+import com.qf.framework.ioc.Injector;
+import com.qf.framework.ioc.Key;
+import com.qf.framework.ioc.binding.Binding;
+import com.qf.framework.ioc.binding.InstanceBinding;
+import com.qf.framework.ioc.binding.Provider;
+import com.qf.framework.ioc.binding.ProviderBinding;
+import com.qf.framework.ioc.binding.TypeProvider;
 
 /**
  *

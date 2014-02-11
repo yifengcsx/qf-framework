@@ -1,5 +1,5 @@
-package com.qf.framework.core.ioc.injection {
-import com.qf.framework.core.ioc.*;
+package com.qf.framework.ioc.injection {
+import com.qf.framework.ioc.Injector;
 
 /**
  * 注入点

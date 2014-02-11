@@ -1,4 +1,4 @@
-package com.qf.framework.core.ioc {
+package com.qf.framework.ioc {
 import com.qf.framework.common.base.Equality;
 import com.qf.framework.common.base.Identity;
 import com.qf.framework.common.reflect.Type;

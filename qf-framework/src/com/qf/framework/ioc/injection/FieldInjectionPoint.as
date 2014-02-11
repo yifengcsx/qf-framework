@@ -1,9 +1,9 @@
-package com.qf.framework.core.ioc.injection {
+package com.qf.framework.ioc.injection {
 import com.qf.framework.common.error.ErrorCenter;
 import com.qf.framework.common.reflect.Field;
-import com.qf.framework.core.ioc.Injector;
-import com.qf.framework.core.ioc.Key;
-import com.qf.framework.core.ioc.error.BindingUndefinedError;
+import com.qf.framework.ioc.Injector;
+import com.qf.framework.ioc.Key;
+import com.qf.framework.ioc.error.BindingUndefinedError;
 
 /**
  * 字段注入点

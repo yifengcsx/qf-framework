@@ -1,8 +1,8 @@
-package com.qf.framework.core.ioc.binding {
+package com.qf.framework.ioc.binding {
 import com.qf.framework.common.reflect.Type;
 import com.qf.framework.common.util.checkNotNull;
-import com.qf.framework.core.ioc.Injector;
-import com.qf.framework.core.ioc.injection.Injections;
+import com.qf.framework.ioc.Injector;
+import com.qf.framework.ioc.injection.Injections;
 
 /**
  * 类型提供器

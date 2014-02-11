@@ -1,8 +1,8 @@
-package com.qf.framework.core.ioc {
+package com.qf.framework.ioc {
 import com.qf.framework.common.reflect.Type;
 import com.qf.framework.common.util.isNull;
-import com.qf.framework.core.ioc.binding.Binding;
-import com.qf.framework.core.ioc.binding.InstanceBinding;
+import com.qf.framework.ioc.binding.Binding;
+import com.qf.framework.ioc.binding.InstanceBinding;
 
 import flash.system.ApplicationDomain;
 

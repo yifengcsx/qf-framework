@@ -1,8 +1,8 @@
-package com.qf.framework.core.ioc.binding {
+package com.qf.framework.ioc.binding {
 import com.qf.framework.common.error.ErrorCenter;
 import com.qf.framework.common.reflect.Type;
-import com.qf.framework.core.ioc.Injector;
-import com.qf.framework.core.ioc.Key;
+import com.qf.framework.ioc.Injector;
+import com.qf.framework.ioc.Key;
 
 /**
  *
