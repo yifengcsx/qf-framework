@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf9af61-6d97-4dcd-8060-a7c8214e318b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/src/Class1.as" afterPath="$PROJECT_DIR$/test1/src/Class1.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/src/Class2.as" afterPath="$PROJECT_DIR$/test1/src/Class2.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/error/ErrorCenter.as" afterPath="$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/error/ErrorCenter.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/ds/map/HashMap.as" afterPath="$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/ds/map/HashMap.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/ds/map/HashMapIterator.as" afterPath="$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/ds/map/HashMapIterator.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/src/Main.as" afterPath="$PROJECT_DIR$/test1/src/Main.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="qf-framework.iws" />
@@ -105,7 +98,7 @@
       <file leaf-file-name="ErrorCenter.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/error/ErrorCenter.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="20" selection-start="318" selection-end="318" vertical-scroll-proportion="0.5038674" vertical-offset="0" max-vertical-offset="905">
+            <state line="13" column="5" selection-start="217" selection-end="217" vertical-scroll-proportion="0.3447514" vertical-offset="0" max-vertical-offset="905">
               <folding />
             </state>
           </provider>
@@ -669,7 +662,7 @@
       <workItem from="1392086022804" duration="1984000" />
       <workItem from="1392088068878" duration="50000" />
       <workItem from="1392088130663" duration="209000" />
-      <workItem from="1392088376318" duration="8924000" />
+      <workItem from="1392088376318" duration="8992000" />
     </task>
     <task id="LOCAL-00001" summary="2014年2月11日">
       <created>1392089321400</created>
@@ -687,11 +680,15 @@
       <created>1392099684745</created>
       <updated>1392099684745</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ff">
+      <created>1392102463601</created>
+      <updated>1392102463601</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12303000" />
+    <option name="totallyTimeSpent" value="12371000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -761,7 +758,8 @@
     <MESSAGE value="&#10;" />
     <MESSAGE value="2014年2月11日" />
     <MESSAGE value="2014年2月11日&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="2014年2月11日&#10;" />
+    <MESSAGE value="ff" />
+    <option name="LAST_COMMIT_MESSAGE" value="ff" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -981,9 +979,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="235" selection-end="235" vertical-scroll-proportion="0.15911601" vertical-offset="0" max-vertical-offset="905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/error/ErrorCenter.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="318" selection-end="318" vertical-scroll-proportion="0.5038674" vertical-offset="0" max-vertical-offset="905">
+        <state line="13" column="5" selection-start="217" selection-end="217" vertical-scroll-proportion="0.3447514" vertical-offset="0" max-vertical-offset="905">
           <folding />
         </state>
       </provider>
