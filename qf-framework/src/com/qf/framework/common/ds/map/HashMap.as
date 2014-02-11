@@ -75,11 +75,11 @@ public class HashMap extends AbstractMap {
 	 * @inheritDoc
 	 */
 	override public function entrySet():Set {
-		var set:Set = new LinkedHashSet();
+		var result:Set = new LinkedHashSet();
 		for (var i:* in _keys) {
-			set.add(new MapEntry(i, _keys[i]));
+			result.add(new MapEntry(i, _keys[i]));
 		}
-		return set;
+		return result;
 	}
 
 	/**

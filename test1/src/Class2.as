@@ -15,7 +15,7 @@ public class Class2 implements Interface2 {
 		return "我是Class2";
 	}
 
-	[QF_InitComplete]
+	[QF_InitCompleted]
 	public function afterInit():void {
 		trace("Class2初始化完毕!!!!", this);
 	}

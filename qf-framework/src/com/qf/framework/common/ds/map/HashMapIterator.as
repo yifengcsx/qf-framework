@@ -25,7 +25,7 @@ public class HashMapIterator implements Iterator {
 	 * @inheritDoc
 	 */
 	public function next():* {
-		return iterator.next().value;
+		return MapEntry(iterator.next()).value;
 	}
 
 	/**

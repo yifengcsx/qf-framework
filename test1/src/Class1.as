@@ -42,7 +42,7 @@ public class Class1 implements Interface1 {
 		       ",field4=" + String(field4) + "}";
 	}
 
-	[QF_InitComplete]
+	[QF_InitCompleted]
 	public function afterInit():void {
 		trace("Class1初始化完毕!!!!", this);
 	}

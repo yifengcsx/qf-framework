@@ -11,6 +11,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/ds/map/HashMap.as" afterPath="$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/ds/map/HashMap.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/ds/map/HashMapIterator.as" afterPath="$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/ds/map/HashMapIterator.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/src/Main.as" afterPath="$PROJECT_DIR$/test1/src/Main.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="qf-framework.iws" />
@@ -104,7 +105,7 @@
       <file leaf-file-name="ErrorCenter.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/error/ErrorCenter.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.45082873" vertical-offset="0" max-vertical-offset="905">
+            <state line="19" column="20" selection-start="318" selection-end="318" vertical-scroll-proportion="0.5038674" vertical-offset="0" max-vertical-offset="905">
               <folding />
             </state>
           </provider>
@@ -156,6 +157,9 @@
   <component name="Git.Settings">
     <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/error/ErrorCenter.as" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -665,7 +669,7 @@
       <workItem from="1392086022804" duration="1984000" />
       <workItem from="1392088068878" duration="50000" />
       <workItem from="1392088130663" duration="209000" />
-      <workItem from="1392088376318" duration="8038000" />
+      <workItem from="1392088376318" duration="8924000" />
     </task>
     <task id="LOCAL-00001" summary="2014年2月11日">
       <created>1392089321400</created>
@@ -679,11 +683,15 @@
       <created>1392089908442</created>
       <updated>1392089908442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2014年2月11日&#10;">
+      <created>1392099684745</created>
+      <updated>1392099684745</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11417000" />
+    <option name="totallyTimeSpent" value="12303000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -975,7 +983,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qf-framework/src/com/qf/framework/common/error/ErrorCenter.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.45082873" vertical-offset="0" max-vertical-offset="905">
+        <state line="19" column="20" selection-start="318" selection-end="318" vertical-scroll-proportion="0.5038674" vertical-offset="0" max-vertical-offset="905">
           <folding />
         </state>
       </provider>

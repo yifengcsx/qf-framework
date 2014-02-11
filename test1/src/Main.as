@@ -45,7 +45,7 @@ public class Main extends Sprite {
 		// 注入器继承
 		var injector:Injector = QF.createInjector(rootInjector);
 		injector.injectObject(this);
-		
+
 	}
 }
 }
